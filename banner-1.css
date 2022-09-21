@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: auto;
+    height: 100%;
+    background-color: aqua;
+}
+.main-container{
+    width: 800px;
+    height: 450px;
+    background-image: linear-gradient(to right, #3c3c3c8f, #3f6085bd, #3c3c3c94);
+    position: absolute;
+    left: 200px;
+    top: 450px;
+    opacity: 1;
+}
+.image-container{
+    width: 800px;
+    height: 250px;
+    position: absolute;
+    left: 0px;
+    top: 104px;
+}
+.octagon-1{
+    width: 400px;
+    height: 100%;
+    position: absolute;
+    left: 200px;
+    clip-path: polygon(30% 0, 70% 0, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+}
+.octagon-1 img{
+    position: absolute;
+    top: -100px;
+    width: 400px;
+    height: auto;
+}
+.octagon-2{
+    background-color: royalblue;
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    top: 50px;
+    left: 24px;
+    clip-path: polygon(25% 0, 75% 0, 100% 30%, 100% 70%, 75% 100%, 26% 100%, 0% 70%, 0% 30%);
+}
+.octagon-2 img{
+    position: absolute;
+    top: -55px;
+    left: -85px;
+    width: 400px;
+    height: auto;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    clip-path: polygon(25% 0, 75% 0, 100% 30%, 100% 70%, 75% 100%, 26% 100%, 0% 70%, 0% 30%);
+}
+.octagon-3{
+    background-color: brown;
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    top: 50px;
+    right: 26px;
+    clip-path: polygon(25% 0, 75% 0, 100% 30%, 100% 70%, 75% 100%, 26% 100%, 0% 70%, 0% 30%);
+}
+.octagon-3 img{
+    position: absolute;
+    top: -48px;
+    left: 4px;
+    width: 243px;
+    height: auto;
+}
+.logo{
+    position: absolute;
+    left: 619px;
+    top: 15px;
+    width: auto;
+    height: auto;
+z-index: 1;}
+.logo img{
+    width: 118px;
+    height: auto;
+}
+.slogan{
+    position: absolute;
+    left: 248px;
+    top: 44px;
+}
+.slogan h2{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bolder;
+    color: white;
+}
+.coming-soon{
+    position: absolute;
+    bottom: 30px;
+    left: 214px;
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+.coming-soon h1{
+    font-family: Rubik Dirt;
+    color: white;
+    font-weight: bolder;
+    font-style: normal;
+}
+.coming-soon p{
+    font-family: nunito;
+    color: white;
+    font-weight: bolder;
+    font-style: normal;
+}
+.tag-line{
+    position: absolute;
+    top: 285px;
+    left: 265px;
+    width: 257px;
+    height: 98px;
+    background-color: rgba(0, 0, 0, 0.923);
+    color: white;
+    text-align: center;
+    clip-path: polygon(0% 0%, 0% 0%, 100% 0%, 100% 44%, 83% 71%, 22% 71%, 0% 36%, 0% 70% );
+}
+.tag-line p{
+    font-family: Nunito;
+    font-weight: bolder;
+    color: white;
+    opacity: 1;
+    font-size: 14px;
+    margin: 5px;
+}
+.polygon-1{
+    position: absolute;
+    top: 0px;
+    right: 50px;
+    width: 150px;
+    height: 120px;
+    background-color: green;
+    clip-path: polygon(0% 0%, 0% 0%, 100% 0%, 94% 68%, 40% 100%, 19% 76%, 0% 52%, 0% 0%);
+}
+.polygon-2{
+    position: absolute;
+    bottom: 0px;
+    left: 50px;
+    width: 150px;
+    height: 120px;
+    background-color: floralwhite;
+    transform: rotate(180deg);
+    clip-path: polygon(0% 0%, 0% 0%, 100% 0%, 94% 68%, 40% 100%, 19% 76%, 0% 52%, 0% 0%);
+}
+.polygon-2 img{
+    position: relative;
+    top: -29px;
+    left: 2px;
+    z-index: 1;
+    width: 136px;
+    height: fit-content;
+    transform: rotate(180deg);
+}
+.polygon-3{
+    position: absolute;
+    top: 0px;
+    left: 47px;
+    width: 150px;
+    height: 120px;
+    background-color: #04395e;
+    clip-path: polygon(0% 0%, 0% 0%, 100% 0%, 100% 51%, 60% 94%, 13% 67%, 18% 93%, 0% 0%);
+}
+.polygon-3 img{
+    position: absolute;
+    left: 31px;
+    top: 5px;
+    width: 117px;
+    height: auto;
+}
+.polygon-4{
+    position: absolute;
+    bottom: 0px;
+    right: 47px;
+    width: 150px;
+    height: 120px;
+    transform: rotate(180deg);
+    background-color: #106f71;
+    clip-path: polygon(0% 0%, 0% 0%, 100% 0%, 100% 51%, 60% 94%, 13% 67%, 18% 93%, 0% 0%);
+}
+.polygon-4 img{
+    position: absolute;
+    left: 36px;
+    top: -1px;
+    width: 96px;
+    height: auto;
+    transform: rotate(180deg);
+}
+#media{
+    position: absolute;
+    bottom: 0px;
+    left: 328px;
+}

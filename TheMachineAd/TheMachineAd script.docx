@@ -1,0 +1,39 @@
+                            Contents
+
+1. Properties
+2. Description
+3. Dialogue
+
+                            Properties
+
+id="TheMachine"
+component={TheMachine}
+durationInFrames={150}
+fps={30}
+width={1920}
+height={1080}
+
+                            Description
+
+a commercial ad about TheMachine service.relaying information about TheMachine in entertaining way.
+
+                            Dialogue (by frame)
+frames 
+
+1-10 (introduction): intro, there is no dialogue.
+
+11-49 (market penetration): Are you an artist trying to break into the market?
+
+50-70 (artist performing): But instead of this.
+
+70-80 (artist solo): you getting this.
+
+80-90 (TheMachine appears): well worry no more. TheMachine, artist most powerful tool is here.
+
+90-100 (TheMachine description): A commercial system that hepls artist achieve commercial success
+in the market through its Data analytics, brand management, advertising and financial system. using these tools
+TheMachine helps artist achieve their commercial goals. as well as a successful careers in the music industry. 
+TheMachine artist most powerful tool.
+
+			
+
